@@ -1,0 +1,14 @@
+{
+  "name": "webUserScripts",
+  "version": "1.0.0",
+  "author": "Tapeworm",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start-server": "cd src && http-server -c5",
+    "create-script": "node --env-file=.env ./scripts/createUserScript.js"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
