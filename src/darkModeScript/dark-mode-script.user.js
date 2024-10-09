@@ -13,7 +13,7 @@ const DARK_COLOR = 'rgb(22, 22, 22)';
 const WHITE_COLOR = 'rgb(242, 242, 242)';
 const HOOK_ID = 'usernavigation';
 
-// set dark mode
+// toggle dark mode
 
 function isLightMode() {
     return document.querySelector('body>*').style.backgroundColor === '';

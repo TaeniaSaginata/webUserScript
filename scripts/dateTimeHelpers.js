@@ -10,7 +10,7 @@ function formatWithLeadingSymbols(array, separator) {
     return array.map(timeUnit => addLeadingSymbol(timeUnit)).join(separator);
 }
 function getFormattedTime(date, separator = ':') {
-    return formatWithLeadingSymbols([date.getUTCHours(), date.getMinutes(), date.getSeconds()], separator);
+    return formatWithLeadingSymbols([date.getHours(), date.getMinutes(), date.getSeconds()], separator);
 }
 function getFormattedDate(date, separator = '/') {
     return formatWithLeadingSymbols([date.getDate(), date.getMonth(), date.getFullYear()], separator);
