@@ -10,5 +10,13 @@
   },
   "devDependencies": {
     "http-server": "^14.1.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TaeniaSaginata/webUserScript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TaeniaSaginata/webUserScript/issues"
+  },
+  "homepage": "https://github.com/TaeniaSaginata/webUserScript#readme"
 }
